@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usage History</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            color: #333;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            max-width: 800px;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        thead {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        thead th {
+            padding: 15px;
+            text-align: left;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #ddd;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tbody td {
+            padding: 12px 15px;
+            font-size: 14px;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        button {
+            padding: 8px 12px;
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .button-group a {
+            margin: 0 10px;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            table th, table td {
+                font-size: 12px;
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 20px;
+            }
+
+            table th, table td {
+                font-size: 10px;
+                padding: 8px;
+            }
+
+            button {
+                font-size: 10px;
+                padding: 6px 10px;
+            }
+        }
+    </style>
+    <script>
+        async function fetchUsageHistory() {
+            try {
+                const response = await fetch('/usage_history/api'); // Replace with your API endpoint
+                const usageData = await response.json();
+
+                // Clear the table body
+                const tableBody = document.getElementById("usage-table-body");
+                tableBody.innerHTML = "";
+
+                // Populate the table with updated data
+                usageData.forEach(entry => {
+                    const row = document.createElement("tr");
+
+                    row.innerHTML = `
+                        <td>${entry.device}</td>
+                        <td>${entry.action}</td>
+                        <td>${new Date(entry.timestamp).toLocaleString()}</td>
+                        <td>${entry.user}</td>
+                    `;
+
+                    tableBody.appendChild(row);
+                });
+            } catch (error) {
+                console.error("Error fetching usage history:", error);
+            }
+        }
+
+        // Refresh data every 5 seconds
+        setInterval(fetchUsageHistory, 5000);
+
+        // Fetch data on page load
+        window.onload = fetchUsageHistory;
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Usage History</h1>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Device</th>
+                        <th>Action</th>
+                        <th>Timestamp</th>
+                        <th>User</th>
+                    </tr>
+                </thead>
+                <tbody id="usage-table-body">
+                    {% for entry in usage_data %}
+                    <tr>
+                        <td>{{ entry.device }}</td>
+                        <td>{{ entry.action }}</td>
+                        <td>{{ entry.timestamp }}</td>
+                        <td>{{ entry.user }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="button-group">
+            <a href="/"><button>Back to Dashboard</button></a>
+        </div>
+    </div>
+
+</body>
+</html>

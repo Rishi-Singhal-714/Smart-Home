@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Page</title>
+    <style>
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ece5dd;
+    color: #333;
+}
+
+/* Chat container styling */
+.chat-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+/* User selection panel */
+.user-selection {
+    width: 30%;
+    background-color: #ffffff;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.user-selection h2 {
+    font-size: 18px;
+    color: #075e54;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    background-color: #075e54;
+    color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-list {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.user-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.user-item:hover {
+    background-color: #d9fdd3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+/* Chat box styling */
+.chat-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5ddd5;
+}
+
+.chat-header {
+    background-color: #075e54;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.chat-header h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#chat-box {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #efeae2;
+    scrollbar-width: thin;
+    scrollbar-color: #ddd #e5ddd5;
+}
+
+#chat-box::-webkit-scrollbar {
+    width: 6px;
+}
+
+#chat-box::-webkit-scrollbar-track {
+    background: #e5ddd5;
+}
+
+#chat-box::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 3px;
+}
+
+.sent, .received {
+    max-width: 70%;
+    margin: 5px 0;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 1.6;
+    word-wrap: break-word;
+    position: relative;
+    display: inline-block;
+}
+
+.sent {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+    text-align: left;
+}
+
+.received {
+    background-color: white;
+    align-self: flex-start;
+    text-align: left;
+}
+
+.sent::after, .received::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.sent::after {
+    right: -10px;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #dcf8c6;
+}
+
+.received::after {
+    left: -10px;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #ffffff transparent transparent;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #f0f0f0;
+    align-items: center;
+    gap: 10px;
+}
+
+form input {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 14px;
+    background-color: white;
+}
+
+form input:focus {
+    border-color: #128c7e;
+    box-shadow: 0px 0px 5px rgba(18, 140, 126, 0.5);
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #128c7e;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+form button:hover {
+    background-color: #075e54;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.user-selection {
+    display: flex;
+    transition: all 0.3s ease;
+}
+
+#chat-box-container {
+    display: none;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .chat-container {
+        flex-direction: column;
+    }
+
+    .user-selection {
+        width: 100%;
+        background-color: #ffffff;
+        border-right: 1px solid #ddd;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    .chat-box {
+        width: 100%;
+    }
+
+    .sent, .received {
+        max-width: 85%;
+    }
+}
+
+/* Chat container styling */
+.chat-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+/* Chat box styling */
+.chat-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5ddd5;
+}
+
+.chat-header {
+    background-color: #075e54;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.chat-header h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#chat-box {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #efeae2;
+    scrollbar-width: thin;
+    scrollbar-color: #ddd #e5ddd5;
+}
+
+#chat-box::-webkit-scrollbar {
+    width: 6px;
+}
+
+#chat-box::-webkit-scrollbar-track {
+    background: #e5ddd5;
+}
+
+#chat-box::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 3px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #f0f0f0;
+    align-items: center;
+    gap: 10px;
+}
+
+form input {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 14px;
+    background-color: white;
+}
+
+form input:focus {
+    border-color: #128c7e;
+    box-shadow: 0px 0px 5px rgba(18, 140, 126, 0.5);
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #128c7e;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+form button:hover {
+    background-color: #075e54;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat box container */
+#chat-box-container {
+    display: none;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <!-- User Selection Section -->
+        <div class="user-selection">
+            <h2>Vichat</h2> <!-- Changed the heading -->
+            {% if user_role == 'student' %}
+            <div class="user-list">
+                {% for email, name in users_list.items() %}
+                <div class="user-item" onclick="openChat('{{ email }}', '{{ name }}')"> <!-- Added onclick -->
+                    <span>{{ name }}</span> <!-- Only showing names -->
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            <div class="user-list">
+                {% for email, name in users_list.items() %}
+                <div class="user-item" onclick="openChat('{{ email }}', '{{ name }}')"> <!-- Added onclick -->
+                    <span>{{ name }}</span> <!-- Only showing names -->
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    
+        <!-- Chat Box Section -->
+        <div class="chat-box" id="chat-box-container" style="display: none;"> <!-- Initially hidden -->
+            <div class="chat-header">
+                <button onclick="closeChat()" style="background-color: transparent; border: none; color: white; font-size: 16px; cursor: pointer; margin-right: 10px;">← Back</button>
+                <h3 id="chat-header-name">Chat with</h3> <!-- Will dynamically update -->
+            </div>
+            <div id="chat-box">
+                {% for message in chat_history %}
+                <div class="{{ 'sent' if message.sent else 'received' }}">
+                    <p>{{ message.message }}</p>
+                    <small>{{ message.timestamp }}</small>
+                </div>
+                {% endfor %}
+            </div>
+            <form id="chat-form" method="POST">
+                <input type="text" name="message" id="message" placeholder="Type a message" required>
+                <input type="hidden" name="recipient" id="recipient"> <!-- Hidden input for recipient -->
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+
+<script>
+    // Function to open the chat box for a selected user
+    function openChat(email, name) {
+        // Hide the user selection and show the chat box
+        document.querySelector('.user-selection').style.display = 'none';
+        document.getElementById('chat-box-container').style.display = 'flex';
+
+        // Update chat header with the user's name
+        document.getElementById('chat-header-name').textContent = `Chat with ${name}`;
+
+        // Set the recipient email for the form
+        document.getElementById('recipient').value = email;
+
+        // Clear any existing chat history in the chat box
+        const chatBox = document.getElementById('chat-box');
+        chatBox.innerHTML = '';
+
+        // Fetch messages for the selected user and populate the chat box
+        fetch(`/get_messages?recipient=${email}`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.chat_history) {
+                    data.chat_history.forEach(function (message) {
+                        const newMessage = document.createElement('div');
+                        newMessage.classList.add(message.sent ? 'sent' : 'received');
+                        newMessage.innerHTML = `<p>${message.message}</p><small>${message.timestamp}</small>`;
+                        chatBox.appendChild(newMessage);
+                    });
+
+                    // Scroll to the bottom of the chat
+                    chatBox.scrollTop = chatBox.scrollHeight;
+                }
+            })
+            .catch(error => console.error('Error fetching messages:', error));
+    }
+
+    // Function to close the chat box and show the user selection
+    function closeChat() {
+        document.querySelector('.user-selection').style.display = 'flex';
+        document.getElementById('chat-box-container').style.display = 'none';
+    }
+
+    // Function to periodically fetch new messages for the chat
+    function fetchMessages() {
+        const recipient = document.querySelector('input[name="recipient"]').value; // Get the recipient from the input field
+        if (recipient) {
+            fetch(`/get_messages?recipient=${recipient}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.chat_history) {
+                        const chatBox = document.getElementById('chat-box');
+                        chatBox.innerHTML = ''; // Clear existing messages
+
+                        // Add new messages to the chat box
+                        data.chat_history.forEach(function (message) {
+                            const newMessage = document.createElement('div');
+                            newMessage.classList.add(message.sent ? 'sent' : 'received');
+                            newMessage.innerHTML = `<p>${message.message}</p><small>${message.timestamp}</small>`;
+                            chatBox.appendChild(newMessage);
+                        });
+
+                        // Scroll to the bottom of the chat
+                        chatBox.scrollTop = chatBox.scrollHeight;
+                    }
+                })
+                .catch(error => console.error('Error fetching messages:', error));
+        }
+    }
+
+    // Periodically fetch new messages every 2 seconds
+    setInterval(fetchMessages, 2000);
+
+    // Handle form submission to send a new message
+    document.getElementById('chat-form').addEventListener('submit', function (e) {
+        e.preventDefault(); // Prevent form from refreshing the page
+
+        const message = document.getElementById('message').value;
+        const recipient = document.querySelector('input[name="recipient"]').value;
+
+        if (!message.trim()) {
+            alert('Message cannot be empty!');
+            return;
+        }
+
+        // Send message via AJAX
+        fetch('/chat', {
+            method: 'POST',
+            body: new URLSearchParams({
+                'message': message,
+                'recipient': recipient
+            }),
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.error) {
+                alert(data.error);
+            } else {
+                // Add the sent message to the chat box without page reload
+                const chatBox = document.getElementById('chat-box');
+                const newMessage = document.createElement('div');
+                newMessage.classList.add('sent');
+                newMessage.innerHTML = `<p>${data.message}</p><small>${data.timestamp}</small>`;
+                chatBox.appendChild(newMessage);
+
+                // Scroll to the bottom of the chat
+                chatBox.scrollTop = chatBox.scrollHeight;
+
+                // Clear the input field after sending
+                document.getElementById('message').value = '';
+            }
+        })
+        .catch(error => console.error('Error sending message:', error));
+    });
+</script>
+
+    
+    
+</body>
+</html>

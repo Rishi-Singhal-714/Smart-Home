@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Automation Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            text-align: center;
+        }
+
+        .logo img {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 26px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            margin-bottom: 20px;
+            appearance: none;
+            background-color: #ddd;
+            border-radius: 10px;
+            height: 10px;
+            outline: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            width: 25px;
+            height: 25px;
+            background-color: #4CAF50;
+            border-radius: 50%;
+            cursor: pointer;
+            appearance: none;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 10px 0;
+            width: 45%;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #response {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #333;
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="https://www.vips.edu/logo.png" alt="VIP Logo">
+        </div>
+
+        <h1>Home Automation Control</h1>
+
+        <!-- Fan Control -->
+        <label for="fan_slider">Fan Speed (0, 50, 100):</label>
+        <input type="range" id="fan_slider" name="fan_slider" min="0" max="100" step="50" oninput="sendFanControl()">
+
+        <!-- Light Control -->
+        <label>Light Control:</label>
+        <button onclick="sendLightControl('on')">Turn Light ON</button>
+        <button onclick="sendLightControl('off')">Turn Light OFF</button>
+
+        <!-- Response Window -->
+        <div id="response"></div>
+    </div>
+
+    <script>
+        // Automatically send fan control when the slider changes
+        function sendFanControl() {
+            const fanSpeed = document.getElementById('fan_slider').value;
+
+            // Create an AJAX request
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', '/control_fan', true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+            // When the request is done, update the response div
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    document.getElementById('response').innerHTML = xhr.responseText;
+                } else {
+                    document.getElementById('response').innerHTML = 'Error sending fan control command.';
+                }
+            };
+
+            // Send the fan speed value
+            xhr.send(`fan_slider=${fanSpeed}`);
+        }
+
+        // Send light control when a button is clicked
+        function sendLightControl(state) {
+            // Create an AJAX request
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', '/control_light', true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+            // When the request is done, update the response div
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    document.getElementById('response').innerHTML = xhr.responseText;
+                } else {
+                    document.getElementById('response').innerHTML = 'Error sending light control command.';
+                }
+            };
+
+            // Send the light state
+            xhr.send(`light_state=${state}`);
+        }
+    </script>
+</body>
+</html>

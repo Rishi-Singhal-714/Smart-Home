@@ -1,0 +1,101 @@
+{
+    "chat_history": [],
+    "50317711721_iot@vips.edu": {
+        "00517711722_iotle@vips.edu": [
+            {
+                "message": "Hii",
+                "sent": true,
+                "timestamp": "2024-11-19T11:19:00.127704"
+            }
+        ],
+        "00117711722_iotle@vips.edu": [
+            {
+                "message": "Hi",
+                "sent": true,
+                "timestamp": "2024-11-19T12:16:09.516575"
+            }
+        ],
+        "divya.agarwal@vips.edu": [
+            {
+                "message": "Hi",
+                "sent": true,
+                "timestamp": "2024-11-19T12:16:16.220353"
+            }
+        ]
+    },
+    "00517711722_iotle@vips.edu": {
+        "50317711721_iot@vips.edu": [
+            {
+                "message": "Hii",
+                "sent": false,
+                "timestamp": "2024-11-19T11:19:00.127704"
+            }
+        ]
+    },
+    "00117711722_iotle@vips.edu": {
+        "35317711721_iot@vips.edu": [
+            {
+                "message": "Hi",
+                "sent": true,
+                "timestamp": "2024-11-19T11:36:15.767067"
+            }
+        ],
+        "01717711721_iot@vips.edu": [
+            {
+                "message": "Hi",
+                "sent": true,
+                "timestamp": "2024-11-19T11:40:49.645506"
+            }
+        ],
+        "50317711721_iot@vips.edu": [
+            {
+                "message": "Hi",
+                "sent": false,
+                "timestamp": "2024-11-19T12:16:09.516575"
+            }
+        ]
+    },
+    "35317711721_iot@vips.edu": {
+        "00117711722_iotle@vips.edu": [
+            {
+                "message": "Hi",
+                "sent": false,
+                "timestamp": "2024-11-19T11:36:15.767067"
+            }
+        ]
+    },
+    "01717711721_iot@vips.edu": {
+        "00117711722_iotle@vips.edu": [
+            {
+                "message": "Hi",
+                "sent": false,
+                "timestamp": "2024-11-19T11:40:49.645506"
+            }
+        ]
+    },
+    "divya.agarwal@vips.edu": {
+        "50917711721_iot@vips.edu": [
+            {
+                "message": "Hi",
+                "sent": true,
+                "timestamp": "2024-11-19T12:15:50.408668"
+            }
+        ],
+        "50317711721_iot@vips.edu": [
+            {
+                "message": "Hi",
+                "sent": false,
+                "timestamp": "2024-11-19T12:16:16.220353"
+            }
+        ]
+    },
+    "50917711721_iot@vips.edu": {
+        "divya.agarwal@vips.edu": [
+            {
+                "message": "Hi",
+                "sent": false,
+                "timestamp": "2024-11-19T12:15:50.408668"
+            }
+        ]
+    }
+}

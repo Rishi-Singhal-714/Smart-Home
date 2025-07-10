@@ -1,0 +1,1346 @@
+[
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-17T19:31:15.778878",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-17T19:59:40.899036",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-17T20:01:32.747182",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-17T20:01:33.117485",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-17T20:01:42.588475",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-17T20:01:43.989236",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-17T20:01:44.137039",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-17T20:01:44.217321",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-17T20:08:36.356977",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-17T20:09:17.438513",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-17T20:09:23.078644",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-17T20:09:31.082046",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-17T20:09:49.727135",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-17T20:09:57.167413",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-17T20:10:45.226431",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-17T20:10:52.766649",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-17T20:15:20.336639",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-17T20:15:27.106649",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-17T20:15:32.376884",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-17T20:16:32.516776",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-17T22:13:51.679618",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-18T00:09:01.208810",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-18T00:09:02.601255",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-18T00:09:39.739302",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-18T00:11:44.393122",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-18T00:11:45.570212",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-18T00:11:47.490976",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-18T00:11:49.354123",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-18T00:11:50.079466",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-18T00:39:32.235731",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-18T00:51:52.939923",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-18T00:51:53.976647",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-18T00:52:08.628303",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-18T00:52:09.975387",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-18T00:52:10.467021",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-18T00:58:38.034450",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-18T00:58:38.891824",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-18T01:00:52.996191",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-18T17:58:54.765177",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-18T17:59:06.616263",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-19T10:17:20.591776",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-19T10:17:23.446703",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-19T10:17:49.499988",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Arduino not connected - Fan control failed",
+        "timestamp": "2024-11-19T10:17:50.492542",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-19T10:19:03.580027",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-19T10:19:04.164780",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-19T10:19:35.401443",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-19T10:19:36.192379",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-19T10:19:36.810784",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-19T10:22:57.627295",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-19T10:22:58.249979",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-19T11:04:24.733771",
+        "user": null
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-19T11:04:25.323167",
+        "user": null
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-19T11:04:25.797030",
+        "user": null
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-19T11:04:26.537517",
+        "user": null
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-19T11:04:36.294976",
+        "user": null
+    },
+    {
+        "device": "Light",
+        "action": "Arduino not connected - Light control failed",
+        "timestamp": "2024-11-19T11:04:36.910283",
+        "user": null
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:05:40.350507",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:05:40.902973",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-19T11:05:45.409055",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-19T11:05:46.440245",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-19T11:05:47.411184",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:06:36.534526",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:06:37.085664",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:06:53.783546",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:06:55.399848",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:08:52.377480",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:09:09.802773",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:09:28.784684",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:09:34.181697",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:09:35.391447",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:09:35.816979",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:09:36.833052",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:09:37.468604",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-19T11:10:08.891173",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-19T11:10:11.724283",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-19T11:10:12.952987",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-19T11:10:16.200333",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-19T11:10:18.076654",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-19T11:10:19.438487",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:13:55.518183",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:13:56.191519",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:14:06.536649",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:14:07.149087",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-19T11:14:08.608643",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-19T11:14:09.115100",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-19T11:14:09.837267",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:14:14.247640",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:14:20.495382",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:15:58.558005",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:16:18.174017",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:16:30.668004",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:16:53.852564",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:17:13.664585",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:17:27.944278",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:17:38.770682",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:17:57.136048",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:18:04.656567",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:19:59.149171",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:20:52.080410",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:21:08.506785",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:21:16.512518",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:21:32.972533",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:28:59.856567",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:29:19.679869",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:32:10.126395",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:32:36.909221",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:32:49.146227",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-19T11:35:17.633679",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-19T11:35:18.538564",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-19T11:35:18.583570",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:35:44.539210",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-19T11:35:55.470264",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-19T11:35:56.391989",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-19T11:36:02.545590",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-19T11:36:03.357201",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-19T11:38:34.943579",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-19T11:39:14.488973",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-19T11:39:31.659345",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-19T11:39:38.636070",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-19T11:39:46.202957",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T11:39:50.791728",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T11:40:04.694572",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-19T11:40:10.971650",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-19T11:40:18.753001",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-19T11:40:56.659096",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-19T11:40:56.674862",
+        "user": "00117711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-19T12:15:12.112457",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-19T12:15:14.426933",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-19T12:15:14.522737",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T12:15:36.758462",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T12:15:38.647273",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-19T12:16:30.526952",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-19T12:17:00.424442",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-19T12:17:14.426798",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-19T12:17:19.046696",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-19T12:17:25.673643",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-19T12:17:26.312054",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T11:11:24.728073",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T11:11:28.191399",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T11:11:29.488606",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T11:11:30.512421",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T11:11:32.493930",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-28T11:11:33.407393",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T11:11:35.351027",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T11:11:35.588826",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:11:36.084451",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:11:36.432544",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-28T11:11:42.532179",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T11:11:44.466783",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:11:56.969740",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-28T11:12:03.937620",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:12:12.586479",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T11:12:19.789948",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-28T11:12:28.948511",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T11:13:15.624055",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:13:16.192498",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T11:15:53.274131",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T11:15:54.328293",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T11:18:37.924824",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T11:18:39.043105",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T11:18:39.565861",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:18:40.378636",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T11:28:56.523857",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T11:34:02.189479",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T11:35:31.506048",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T11:35:32.359424",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T11:41:36.835932",
+        "user": "02217711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T11:41:48.550559",
+        "user": "02217711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T11:42:14.055609",
+        "user": "02217711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T11:42:25.459282",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-28T11:42:27.577303",
+        "user": "02217711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-28T11:42:31.310053",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:42:33.156105",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T11:43:09.032682",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-28T11:43:09.056777",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T11:43:13.072917",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:43:13.121157",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T11:43:30.535104",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:43:35.068169",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-28T11:43:43.731978",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T11:43:44.084746",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:43:44.723988",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-28T11:43:46.671852",
+        "user": "02217711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:43:53.588275",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:44:46.411115",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-28T11:44:48.884713",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:44:50.988173",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T11:48:28.041215",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T11:48:28.488345",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T11:50:18.069419",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T11:50:18.761644",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T11:50:20.096944",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T11:50:22.434769",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T11:50:23.282639",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T11:50:27.776945",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T11:50:28.961177",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T11:50:31.313364",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T11:50:36.594012",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T11:50:38.586729",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T11:50:41.947604",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-28T11:50:47.429472",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T11:50:52.481803",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:50:53.071702",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T11:50:54.408855",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:50:55.361696",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:50:59.425576",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T11:51:13.863628",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T11:51:24.120611",
+        "user": "00217711722_iotle@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T11:53:15.524158",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T11:53:16.627164",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T12:02:06.787142",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T12:02:07.647372",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T12:17:08.948604",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T12:17:10.090382",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T12:18:10.404876",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned off",
+        "timestamp": "2024-11-28T12:18:17.069974",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Light",
+        "action": "Light turned on",
+        "timestamp": "2024-11-28T12:18:18.468974",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T12:18:38.266346",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T12:18:41.200372",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-28T12:18:47.217290",
+        "user": "divya.agarwal@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 50% speed",
+        "timestamp": "2024-11-28T12:20:04.529963",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan set to 100% speed",
+        "timestamp": "2024-11-28T12:20:08.205665",
+        "user": "50317711721_iot@vips.edu"
+    },
+    {
+        "device": "Fan",
+        "action": "Fan turned off",
+        "timestamp": "2024-11-28T12:20:18.391567",
+        "user": "50317711721_iot@vips.edu"
+    }
+]

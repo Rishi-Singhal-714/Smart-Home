@@ -1,0 +1,44 @@
+{
+    "greetings": [
+        {
+            "command": "hi cliff",
+            "response": "Hello! How can I assist you today?"
+        },
+        {
+            "command": "cliff",
+            "response": "Yes, I'm here. How can I help you?"
+        }
+    ],
+    "project_info": {
+        "command": "cliff tell about my project",
+        "response": "Your project is a home automation system allowing admins to control lights and fans. It supports voice commands, user registration, and usage history management. You can also communicate with me for real-time assistance!"
+    },
+    "date_time": {
+        "commands": ["what is the date", "what is the time"],
+        "response_template": "Today is {date}. The current time is {time}."
+    },
+    "fan_control": [
+        {
+            "command": "turn on fan",
+            "action": "fan_on",
+            "response": "Fan is now running at medium speed."
+        },
+        {
+            "command": "turn off fan",
+            "action": "fan_off",
+            "response": "Fan has been turned off."
+        }
+    ],
+    "light_control": [
+        {
+            "command": "turn on light",
+            "action": "light_on",
+            "response": "Light has been turned on."
+        },
+        {
+            "command": "turn off light",
+            "action": "light_off",
+            "response": "Light has been turned off."
+        }
+    ]
+}

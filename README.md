@@ -11,17 +11,35 @@ A voice-controlled IoT-based Smart Home Automation System built using **ESP32**,
 - ⚡ Fast and responsive ESP32 communication
 - 🔄 Simultaneous support for voice and browser-based control
 
+<div align="center">
+
+# 🏠 Smart Home Automation
+
+### Voice-Controlled IoT Home Automation using ESP32, Google Assistant & Flask
+
+</div>
+
+---
+
+<div align="center">
+
 ## 📹 Demo
 
 https://github.com/Rishi-Singhal-714/Smart-Home/assets/167010491/a9431c91-5c2b-4d1c-a2f0-3e28890fb565
 
+<br>
+
 ## 📸 Preview
 
-![Smart Home](https://github.com/Rishi-Singhal-714/Smart-Home/assets/167010491/a5776b84-8766-4325-abfb-e15c6036a47b)
+<img src="https://github.com/Rishi-Singhal-714/Smart-Home/assets/167010491/a5776b84-8766-4325-abfb-e15c6036a47b" width="850">
+
+<br><br>
 
 ## 📹 Additional Demo
 
 https://github.com/user-attachments/assets/e8847278-a63b-4b4a-97c6-b508153ca220
+
+</div>
 
 ---
 

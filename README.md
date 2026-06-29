@@ -6,5 +6,5 @@ https://github.com/Rishi-Singhal-714/Smart-Home/assets/167010491/a9431c91-5c2b-4
 
 ![Smart Home](https://github.com/Rishi-Singhal-714/Smart-Home/assets/167010491/a5776b84-8766-4325-abfb-e15c6036a47b)
 
+https://github.com/user-attachments/assets/e8847278-a63b-4b4a-97c6-b508153ca220
 
-![Smart Home App](https://github.com/Rishi-Singhal-714/Smart-Home/assets/167010491/f653a8e5-1113-481d-aaa6-4c8a44a4ee10)
